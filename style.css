@@ -1,3 +1,9 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+/* Header Section */
+
 .header {
     background-color: #EDF2EC;
 }
@@ -52,4 +58,62 @@ ul {
     flex-direction: column;
     justify-content: center;
     margin-bottom: 8px;
+}
+
+/* Welcome Section */
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    background-color: #EDF2EC;
+}
+.welcome__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 62px 0 62px 0;
+    
+}
+.welcome__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 31px 0 31px 0;
+    width: 549px;
+}
+
+.welcome__title {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+
+    color: #717171;
+}
+
+span {
+    color: #499A18
+}
+
+.text {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+
+    word-wrap: break-word;
+    color: #636060;
+    
+}
+
+.btn {
+    width: 158px;
+    height: 44px;
+    border-radius: 10px;
+    border: 2px solid #E06733;
+    margin-top: 30px;   
+}
+
+.welcome__img {
+    width: 448px;
+    height: 407px;
 }
