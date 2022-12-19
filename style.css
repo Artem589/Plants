@@ -1,0 +1,55 @@
+.header {
+    background-color: #EDF2EC;
+}
+
+.container {
+    width: 1222px;
+}
+.navbar {
+    margin-left: auto;
+}
+.nav__list {
+    list-style: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 452px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #010201;
+    display: block;
+
+    font-family: 'Inika';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 42px 0 42px 0;
+}
+
+.active {
+    color: #E06733
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 8px;
+}
