@@ -232,7 +232,7 @@ span {
     border-radius: 20px 20px 0 0;
 }
 
-.subtitle {
+.service__subtitle {
     text-align: center;
     color: #E06733;
 
@@ -242,7 +242,7 @@ span {
     line-height: 20px;
 }
 
-.text {
+.service__text {
     text-align: center;
     color: #717171;
 
