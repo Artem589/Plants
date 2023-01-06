@@ -251,3 +251,137 @@ span {
     font-size: 16px;
     line-height: 20px;
 }
+
+/* Prices */
+
+.prices {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.prices__container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+
+.prices__contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.prices__title {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #000000;
+    width: 452px;
+}
+
+.prices__img {
+    width: 152px;
+    height: 175px;
+}
+
+.prices__btn {
+    color: #E06733;
+
+    font-family: 'Inika';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    width: 161px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 29px 0 29px 0;
+}
+
+.right {
+    text-align: right;
+}
+
+.prices__tarif {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.prices__item {
+    width: 332px;
+    height: 282px;
+
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
+
+.prices__item--acc {
+    background-color: #EDF2EC;
+    width: 250px;
+    height: 50px;
+
+    color: #000000;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px 0 25px;
+}
+/* i {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: red;
+
+} */
+/* .arrow {
+    border: solid gray;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 3px;
+    
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  } */
+
+  .bottom {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    /* border: 0.5em solid #333; */
+    border-radius: 50%;
+
+    background-color: #D9D9D9;
+  }
+  
+  .bottom:after {
+    content: '';
+      display: inline-block;
+    margin-bottom: 4.5px;
+    width: 5px;
+    height: 5px;
+    border-top: 1px solid #717171;
+    border-right: 1px solid #717171;
+    -moz-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
